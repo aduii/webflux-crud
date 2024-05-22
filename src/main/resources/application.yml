@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: webflux-crud
+  data:
+    mongodb:
+      database: ${MONGODB_DATABASE}
+      host: ${MONGODB_HOST}
+      port: ${MONGODB_PORT}
+
+server:
+  port: ${SERVER_PORT}
